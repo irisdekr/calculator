@@ -35,7 +35,7 @@
     border: 2px solid rgb(25, 25, 25); 
     background-color: rgb(49, 49, 49);
     box-shadow: 1px 3px;
-    display: flex;
+    display: flex; 
     width: 200px;
     height: 30px;
     border-radius: 2%;
@@ -44,6 +44,8 @@
 }
 
 .display_text {
+    /* display: table cell; how to get this text vertically aligned in the middle? */
+    /* vertical-align: middle; */
     text-align: left;
     color: white;
     font-family: 'Courier New', Courier, monospace;
